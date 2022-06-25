@@ -1,0 +1,28 @@
+body {
+  background-color: #006060;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 18vh 1rem;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #00ff44;
+}
+
+a {
+  color: #ffff00;
+
+  &:focus,
+  &:hover {
+    color: darken(#ffff00, 10%);
+  }
+}
